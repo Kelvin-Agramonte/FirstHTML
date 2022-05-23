@@ -1,0 +1,129 @@
+===================== HTML ========================================================================================================
+
+  (1) What do HTML and CSS stand for? 
+        HTML: Hypertext Markup Language
+        - This is where you build the structure of the anatomy of your website, more like the bones.
+    
+    CSS: Cascading Style Sheet
+        - In this case is the flesh that covers the bones, or more specific the attributes, colors, the looks, etc. 
+
+  (2) Would you rather use HTML or CSS, for putting paragraphs of text on a webpage?
+        The answer is HTML, as we mentioned in the previous question, it is the anatomy/structure of the site. 
+        Which means the main role it's to put things in the right place and not on how it looks. 
+        We can add paragraphs by using the tag <p>
+
+  (3) Would you rather use HTML or CSS, to change the font and background color of a button?
+        The answer is CSS, as soon you realize you're trying to change the APPEARANCE based on fonts, colors, etc. 
+        Then, CSS is the best way to go.
+
+  (4) What is a HTML tag?
+        Almost all elements on an HTML page are just pieces of content wrapped in opening and closing HTML tags.
+            - Opening tags: tell the browser this is the start of an HTML element. 
+              They are comprised of a keyword enclosed in angle brackets <>. 
+
+                For example, an opening paragraph tag looks like this: <p>.
+
+            - Closing tags: tell the browser where an element ends. 
+              They are almost the same as opening tags; the only difference is that they have a forward slash before the keyword. 
+    
+                For example, a closing paragraph tag looks like this: </p>.
+
+  (5) What are the three parts of an HTML element? 
+        - Opening tag
+        - Content
+        - Closing tag
+
+  (6) What is the purpose of the doctype declaration?
+        The doctype’s purpose is to tell the browser what version of HTML it should use to render the document. 
+        The latest version of HTML is HTML5, and the doctype for that version is simply <!DOCTYPE html>.
+
+  (7) What is the HTML element?
+        This is what’s known as the root element of the document, meaning that every other element in the document
+        will be a descendant of it.
+
+  (8) What is the purpose of the head element?
+        The <head> element is where we put important meta-information about our webpages, and stuff required
+        for our webpages to render correctly in the browser. Inside the <head>, we should not use any element
+        that displays content on the webpage.
+
+  (9) What is the purpose of the body element?
+        The <body> element. This is where all the content that will be displayed to users
+        such as the text, images, lists, links, and so on.
+
+ (10) How do you create a paragraph in HTML?
+        <p></p>
+
+ (11) How do you create a heading in HTML?
+        <head></head>
+
+ (12) How many different levels of headings are there and what is the difference between them?
+        There are six different heading tags in HTML <h1> to <h6>. The heading defined within <h1> is the most important 
+        i.e. larger font-size and font-weight whereas <h6> is the least important i.e. least font-size. 
+
+ (13) What element should you use to make text bold and important?
+        - <b></b>
+        - <strong></strong>
+        - class="bold_text"></>
+
+ (14) What element should you use to make text italicized to add emphasis to it?
+        - <i></i>
+        - <em></em>
+
+ (15) What relationship does an element have with any nested elements within it?
+        - The nested elements are the children and the element they are nested within is the parent.
+        - HTML parent elements can have many children. 
+        - We use indentation to make the level of nesting clear and readable for ourselves and other developers.
+
+ (16) What relationship do two elements have if they are at the same level of nesting?
+        - Elements at the same level of nesting are considered to be siblings.
+
+ (17) How do you create HTML comments?
+        - <!-- comment --> by pressing: CTRL+/
+
+ (18) What HTML tag is used to create an unordered list?
+        - Unordered lists are created using the <ul> element.
+
+ (19) What HTML tag is used to create an ordered list?
+        - Ordered lists are created using the <ol> element. 
+
+ (20) What HTML tag is used to create list items within both unordered and ordered lists?
+        - Each individual item in them is again created using the list item element <li>. 
+
+ (21) What element is used to create a link?
+        - Anchor Elements - To create a link in HTML, we use the anchor element. 
+        An anchor element is defined by wrapping the text or another HTML element we want to be a link with an <a> tag
+
+ (22) What is an attribute?
+        - An HTML attribute gives additional information to an HTML element and always goes in the element’s opening tag.
+        An attribute is made up of two parts, a name, and a value. In our case, we need to add a href (hyperlink reference)
+        attribute to the opening anchor tag. 
+
+ (23) What attribute tells links where to go?
+        - The value of the href attribute is the destination we want our link to go to.
+
+ (24) What is the difference between an absolute and relative link?
+        - Absolute links: Links to pages on other websites on the internet are called absolute links. 
+        A typical absolute link will be made up of the following parts: protocol://domain/path.
+
+        - Relative links: Links to other pages within our own website are called relative links. 
+        Relative links do not include the domain name, since it is another page on the same site, 
+        it assumes the domain name will be the same as the page we created the link on.
+
+ (25) Which element is used to display an image?
+        - To display an image in HTML we use the <img> element. 
+        Unlike the other elements we have encountered so far, the <img> element is empty. 
+        Which means it doesn’t have a closing tag.
+
+ (26) What two attributes do images always need to have?
+        - src: works much like the href attribute for anchor tags. 
+        It can embed an image using both absolute and relative paths
+
+        - Alt attribute: Besides the src attribute, every image element should also have an alt (alternative text) attribute.
+        The alt attribute is used to describe an image. It will be used in place of the image if it cannot be loaded. 
+        It is also used with screen readers to describe what the image is to visually impaired users.
+
+ (27) How do you access a parent directory in a file path?
+        - href="./folder/destination
+
+ (28) What are the four main image formats that you can use for images on the web?
+        - JPG, PNG, GIF, and SVG images
